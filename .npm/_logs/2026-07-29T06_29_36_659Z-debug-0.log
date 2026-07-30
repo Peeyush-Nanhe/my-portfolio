@@ -1,0 +1,40 @@
+0 verbose cli /opt/homebrew/Cellar/node/26.0.0/bin/node /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v26.0.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/peeyush/-P-Project /PeeyushPortfolio/.npmrc
+5 silly config load:file:/opt/homebrew/etc/npmrc
+6 verbose title npm exec create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias @/* --use-npm
+7 verbose argv "exec" "--yes" "--" "create-next-app@latest" "." "--typescript" "--tailwind" "--eslint" "--app" "--src-dir" "--import-alias" "@/*" "--use-npm"
+8 verbose logfile logs-max:10 dir:/Users/peeyush/-P-Project /PeeyushPortfolio/.npm/_logs/2026-07-29T06_29_36_659Z-
+9 verbose logfile /Users/peeyush/-P-Project /PeeyushPortfolio/.npm/_logs/2026-07-29T06_29_36_659Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with HPE_INVALID_VERSION
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 http fetch GET https://registry.npmjs.org/create-next-app attempt 1 failed with HPE_INVALID_VERSION
+14 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with HPE_INVALID_VERSION
+15 http fetch GET https://registry.npmjs.org/create-next-app attempt 2 failed with HPE_INVALID_VERSION
+16 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with HPE_INVALID_VERSION
+17 http fetch GET https://registry.npmjs.org/create-next-app attempt 3 failed with HPE_INVALID_VERSION
+18 verbose type system
+19 verbose stack FetchError: request to https://registry.npmjs.org/create-next-app failed, reason: Parse Error: Invalid HTTP version
+19 verbose stack     at ClientRequest.<anonymous> (/opt/homebrew/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+19 verbose stack     at ClientRequest.emit (node:events:509:20)
+19 verbose stack     at emitErrorEvent (node:_http_client:109:11)
+19 verbose stack     at Socket.socketOnData (node:_http_client:642:5)
+19 verbose stack     at Socket.emit (node:events:509:20)
+19 verbose stack     at Readable.read (node:internal/streams/readable:790:10)
+19 verbose stack     at Socket.read (node:net:844:39)
+19 verbose stack     at flow (node:internal/streams/readable:1295:53)
+19 verbose stack     at resume_ (node:internal/streams/readable:1274:3)
+19 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+20 error code HPE_INVALID_VERSION
+21 error errno HPE_INVALID_VERSION
+22 error request to https://registry.npmjs.org/create-next-app failed, reason: Parse Error: Invalid HTTP version
+23 verbose cwd /Users/peeyush/-P-Project /PeeyushPortfolio
+24 verbose os Darwin 25.5.0
+25 verbose node v26.0.0
+26 verbose npm  v11.12.1
+27 verbose exit 1
+28 verbose code 1
+29 error A complete log of this run can be found in: /Users/peeyush/-P-Project /PeeyushPortfolio/.npm/_logs/2026-07-29T06_29_36_659Z-debug-0.log

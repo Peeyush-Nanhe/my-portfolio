@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, Download, Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import profilePic from "../public/profile.jpg";
 
 export default function Hero() {
   return (
@@ -208,7 +209,7 @@ export default function Hero() {
                 <div className="absolute inset-0 rounded-3xl overflow-hidden bg-gradient-to-br from-[#222] to-[#0a0a0a] border border-white/10 shadow-[0_0_60px_rgba(255,122,0,0.15)] flex items-end justify-center">
                   <div className="w-full h-full relative">
                     <Image
-                      src="/profile.jpg"
+                      src={profilePic}
                       alt="Peeyush Nanhe"
                       fill
                       className="object-cover"

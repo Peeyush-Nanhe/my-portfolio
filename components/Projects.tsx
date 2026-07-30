@@ -18,7 +18,7 @@ export default function Projects() {
       category: "Enterprise Facilities & Asset Management Platform",
       industry: "Facilities Management",
       description: "Asteco IAS is an enterprise Facilities & Asset Management platform enabling organizations to manage maintenance operations, field service teams, and assets. As Tech Lead and Solution Architect, I designed scalable mobile architecture, led the engineering team, and delivered a production-ready mobile application.",
-      image: "https://images.unsplash.com/photo-1541888081682-1d57564d2576?auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80",
       highlights: [
         "Designed scalable enterprise architecture",
         "Led cross-functional engineering teams",

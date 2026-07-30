@@ -4,9 +4,8 @@ import { ReactLenis } from "@studio-freight/react-lenis";
 
 export default function SmoothScroll({ children }: { children: React.ReactNode }) {
   return (
-    // @ts-ignore - ReactLenis types are missing children
     <ReactLenis root options={{ lerp: 0.1, duration: 1.5, smoothWheel: true }}>
-      {children}
+      {children as any}
     </ReactLenis>
   );
 }

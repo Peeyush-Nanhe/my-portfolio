@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Caveat } from "next/font/google";
 import SmoothScroll from "@/components/SmoothScroll";
 import CustomCursor from "@/components/CustomCursor";
+
+import { Inter, Caveat } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const caveat = Caveat({ subsets: ["latin"], variable: '--font-caveat' });
